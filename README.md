@@ -1,1 +1,105 @@
-# polio
+[Uploading login form…]()<html>
+    <head>
+        <title>login form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0"> 
+        <style>
+            header{
+                text-align:center;
+                background-color:skyblue;
+                padding-top:2px;
+                padding-bottom :2px;
+                position:fixed;
+                top:0;
+                left:0;
+                width:100%;
+                border-radius: 50px  50px;
+                box-shadow:inset 20px 20px 0px #000040 , inset -20px -20px 0px #000060;
+                color:#000050;
+                padding: 5px;
+                border-style: none;
+            }
+            .container{
+                background-color:skyblue;
+                position: absolute;
+                margin: 0;
+                top: 50%;
+                left: 30%;
+                padding-top: 50px;
+                border-top: 2px solid #000050;
+                width: 400px;
+                border-style: ridge;
+                border-radius: 10px;
+            }
+            img{
+                size: 600px;
+                height: 100px;
+                border-radius:0 10px;
+                float:bottom;
+            }
+            h1{
+                background-color:background-color:rgb(0, 0, 68);
+                color:aqua;
+                padding: 5px;
+                border-style: none;;
+                color:#000050;
+                border-radius: 0 10px;
+                text-shadow: 3cap;
+                       }
+                       button{
+                        background-color:rgb(0, 0, 68);
+                        color:aqua;
+                        padding: 5px;
+                        border-style: none;
+                        cursor: pointer;
+                       }
+                       input{
+                        border-style: none;
+                        background-color: aqua;
+                        color:rgb(0, 0, 65);
+                        border-radius: 0 10px;
+                        text-align: center;
+                       }
+                       input:hover{
+                        background-color:aqua;
+                        color: rgb(0, 0, 83);
+                        padding: 15px;
+                        transition: 1s;
+                       }
+                       button:hover{
+                        background-color:aqua;
+                        color:rgb(0, 0, 70);
+                        padding: 10px;
+                        border-style: none;
+                        border-radius: 0 10px;
+                        transition: 1s;
+                        cursor: pointer;
+                       }
+        </style>
+        <link rel="stylesheet" href="file:///home/yazeed/Desktop/WEB/font%20-6/css/all.min.css">
+    </head>
+    <body style="background:url('file:///home/yazeed/Desktop/WEB/image/wall.png');">
+        <header>
+            <img src="/home/yazeed/Desktop/WEB/image/crowwe.png">
+            <h2>WELCOME TO CROWWE</h2>
+            <p>Home Of Socialization</p>
+        </header>
+        <div class="container">
+                <h1 align='center'>CROWWE</h1>
+                <center>
+        <div class="form">
+        <i class="fa-sharp fa-solid fa-user-plus"></i>
+        <input type="text" name="name" placeholder="username">
+        <br><br>
+        <i class="fa-sharp fa-solid fa-lock"></i>
+        <input type="password" name="password" placeholder="enter your password">
+        <br><br>
+        <a>Forget password</a><br><i class="fa-solid fa-square-xmark fa-beat"></i>
+        <br>
+        <br><br>
+        <button>Submit <i class="fa-solid fa-check fa-bounce"></i></button></center>
+        <br><br>
+        </div>
+        </div>
+    </body>
+</html>
